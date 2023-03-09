@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "estructurasRepetitivas",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "eje1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eje1-Debug-534bd511e8c21ec506d3.json",
+					"name" : "eje1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejem1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejem1-Debug-9f134b781eff86bb06b2.json",
+					"name" : "ejem1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejem2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejem2-Debug-8206c931a086e29cc194.json",
+					"name" : "ejem2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejem3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejem3-Debug-a7b66ea07addc54f3ac3.json",
+					"name" : "ejem3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug",
+		"source" : "/Users/paulcontreras/Documents/GitHub/estructurasRepetitivas"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
