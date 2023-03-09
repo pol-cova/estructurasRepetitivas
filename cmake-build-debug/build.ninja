@@ -99,6 +99,68 @@ build ejem1: C_EXECUTABLE_LINKER__ejem1_Debug CMakeFiles/ejem1.dir/ejemplo1.c.o
   TARGET_FILE = ejem1
   TARGET_PDB = ejem1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejem2
+
+
+#############################################
+# Order-only phony target for ejem2
+
+build cmake_object_order_depends_target_ejem2: phony || CMakeFiles/ejem2.dir
+
+build CMakeFiles/ejem2.dir/ejemplo2.c.o: C_COMPILER__ejem2_Debug /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/ejemplo2.c || cmake_object_order_depends_target_ejem2
+  DEP_FILE = CMakeFiles/ejem2.dir/ejemplo2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejem2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejem2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejem2
+
+
+#############################################
+# Link the executable ejem2
+
+build ejem2: C_EXECUTABLE_LINKER__ejem2_Debug CMakeFiles/ejem2.dir/ejemplo2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejem2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejem2
+  TARGET_PDB = ejem2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ejem3
+
+
+#############################################
+# Order-only phony target for ejem3
+
+build cmake_object_order_depends_target_ejem3: phony || CMakeFiles/ejem3.dir
+
+build CMakeFiles/ejem3.dir/ejemplo3.c.o: C_COMPILER__ejem3_Debug /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/ejemplo3.c || cmake_object_order_depends_target_ejem3
+  DEP_FILE = CMakeFiles/ejem3.dir/ejemplo3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejem3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ejem3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejem3
+
+
+#############################################
+# Link the executable ejem3
+
+build ejem3: C_EXECUTABLE_LINKER__ejem3_Debug CMakeFiles/ejem3.dir/ejemplo3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ejem3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ejem3
+  TARGET_PDB = ejem3.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -133,7 +195,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug
 
-build all: phony eje1 ejem1
+build all: phony eje1 ejem1 ejem2 ejem3
 
 # =============================================================================
 # Built-in targets
