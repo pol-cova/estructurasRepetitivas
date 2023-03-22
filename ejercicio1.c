@@ -23,6 +23,7 @@ Imprimir “prueba”
  fin
  */
 
+// Incluimos las librerías principales
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -31,11 +32,13 @@ int main(){
     // Definimos el idioma a trabajar
     setlocale(LC_CTYPE, "SPANISH");
 
+    // Definimos e iniciamos el contador
+
     int count = 5;
 
     /*
      * Esta parte imprime el mensaje de prueba hasta que el contador vale 20, iniciado con 5 y
-     * con un icremento de 2
+     * con un incremento de 2
      */
     while (count < 20){
         printf("Prueba\n");
