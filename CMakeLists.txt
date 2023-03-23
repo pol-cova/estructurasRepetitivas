@@ -18,4 +18,7 @@ add_executable(eje9 ejercicio9.c)
 add_executable(eje10 ejercicio10.c)
 add_executable(eje11 ejercicio11.c)
 add_executable(eje12 ejercicio12.c)
+add_executable(eje13 ejercicio13.c)
+add_executable(eje14 ejercicio14.c)
+
 
