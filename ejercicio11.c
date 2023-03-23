@@ -18,10 +18,13 @@ int main(){
     // Definimos e iniciamos las variables
     int n, num, maxVal, minVal;
 
+    // Solicitamos los elementos a comparar
     printf("Ingrese la cantidad de elementos a comparar: \n");
     scanf("%d", &n);
+    // Iniciamos el array
     int elementos[n];
 
+    // Solicitamos los elementos
     printf("Ingrese el elemento: \n");
     for (int i=0; i < n; ++i){
         scanf("%d", &num);
@@ -29,8 +32,11 @@ int main(){
         elementos[i] = num;
     }
 
+
+    // Iniciamos las variables para almacenar los valores máximos y mínimos
     minVal = maxVal = elementos[0];
 
+    // Usamos un for para comparar todos los elementos
     for (int i=0; i < n; ++i){
         if(elementos[i] > maxVal){
             maxVal = elementos[i];
