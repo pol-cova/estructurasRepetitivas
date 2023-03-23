@@ -25,7 +25,7 @@ int main(){
     printf("La serie es: %d %d ", p1,p2);
 
     // Usamos un for imprimir la sucesión
-    for (i = 0; i < lim; ++i){
+    for (i = 0; i < lim - 2; ++i){
         printf("%d ", nextPos);
         p1 = p2;
         p2 = nextPos;
