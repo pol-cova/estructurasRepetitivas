@@ -9,5 +9,8 @@
 /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug/CMakeFiles/eje6.dir
 /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug/CMakeFiles/eje7.dir
 /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug/CMakeFiles/eje8.dir
+/Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug/CMakeFiles/eje9.dir
+/Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug/CMakeFiles/eje10.dir
+/Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug/CMakeFiles/eje11.dir
 /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

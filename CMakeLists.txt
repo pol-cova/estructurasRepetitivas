@@ -14,5 +14,8 @@ add_executable(eje5 ejercicio5.c)
 add_executable(eje6 ejercicio6.c)
 add_executable(eje7 ejercicio7.c)
 add_executable(eje8 ejercicio8.c)
+add_executable(eje9 ejercicio9.c)
+add_executable(eje10 ejercicio10.c)
+add_executable(eje11 ejercicio11.c)
 
 
