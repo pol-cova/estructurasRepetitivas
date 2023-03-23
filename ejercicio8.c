@@ -16,12 +16,19 @@ int main(){
     // Configuramos el idioma a trabajar
     setlocale(LC_CTYPE, "SPANISH");
     // Definimos e iniciamos las variables
-    int cont,num,sum = 0;
+    int cont = 1,num,sum = 0;
 
+    while (cont <= 10){
+        printf("Ingrese un número: \n");
+        scanf("%d", &num);
 
+        if (num % 2 == 0){
+            sum = sum + num;
+            cont = cont + 1;
+        }
+    }
 
-
-
+    printf("La suma de los números pares es: %d \n", sum);
 
     system("pause");
     return 0;

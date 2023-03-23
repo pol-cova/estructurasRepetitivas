@@ -14,7 +14,7 @@ int main(){
 
     // Definimos e iniciamos las variables
     int i=5;
-    unsigned long int prod = 1;
+    double prod = 1;
 
     while(i <= 100){
         printf("%d\n", i);
@@ -23,7 +23,7 @@ int main(){
     }
 
     // Imprimimos el valor de los productos ¡
-    printf("El producto de los primeros multiplos es: %lu \n",prod);
+    printf("El producto de los primeros multiplos es: %.0lf \n",prod);
 
 
     system("pause");
