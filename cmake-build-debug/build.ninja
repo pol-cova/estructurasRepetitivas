@@ -316,6 +316,37 @@ build eje6: C_EXECUTABLE_LINKER__eje6_Debug CMakeFiles/eje6.dir/ejercicio6.c.o
   TARGET_FILE = eje6
   TARGET_PDB = eje6.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target eje7
+
+
+#############################################
+# Order-only phony target for eje7
+
+build cmake_object_order_depends_target_eje7: phony || CMakeFiles/eje7.dir
+
+build CMakeFiles/eje7.dir/ejercicio7.c.o: C_COMPILER__eje7_Debug /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/ejercicio7.c || cmake_object_order_depends_target_eje7
+  DEP_FILE = CMakeFiles/eje7.dir/ejercicio7.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje7.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje7
+
+
+#############################################
+# Link the executable eje7
+
+build eje7: C_EXECUTABLE_LINKER__eje7_Debug CMakeFiles/eje7.dir/ejercicio7.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje7
+  TARGET_PDB = eje7.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -350,7 +381,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug
 
-build all: phony eje1 ejem1 ejem2 ejem3 eje2 eje3 eje4 eje5 eje6
+build all: phony eje1 ejem1 ejem2 ejem3 eje2 eje3 eje4 eje5 eje6 eje7
 
 # =============================================================================
 # Built-in targets
