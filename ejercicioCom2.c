@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include <time.h>
 
 // Definimos el numero de oportunidades
 const int oportunidades = 3;
@@ -22,6 +23,7 @@ int main(){
     // Declaramos e iniciamos las variables
     int userNumber, machineNumber;
 
+    srand(time(NULL));
     machineNumber = rand() % 100 + 1;
 
 

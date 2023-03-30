@@ -657,6 +657,68 @@ build eje3C: C_EXECUTABLE_LINKER__eje3C_Debug CMakeFiles/eje3C.dir/ejerciciocCom
   TARGET_FILE = eje3C
   TARGET_PDB = eje3C.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target eje4C
+
+
+#############################################
+# Order-only phony target for eje4C
+
+build cmake_object_order_depends_target_eje4C: phony || CMakeFiles/eje4C.dir
+
+build CMakeFiles/eje4C.dir/ejercicioCom4.c.o: C_COMPILER__eje4C_Debug /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/ejercicioCom4.c || cmake_object_order_depends_target_eje4C
+  DEP_FILE = CMakeFiles/eje4C.dir/ejercicioCom4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje4C.dir
+  OBJECT_FILE_DIR = CMakeFiles/eje4C.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target eje4C
+
+
+#############################################
+# Link the executable eje4C
+
+build eje4C: C_EXECUTABLE_LINKER__eje4C_Debug CMakeFiles/eje4C.dir/ejercicioCom4.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/eje4C.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = eje4C
+  TARGET_PDB = eje4C.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target menu
+
+
+#############################################
+# Order-only phony target for menu
+
+build cmake_object_order_depends_target_menu: phony || CMakeFiles/menu.dir
+
+build CMakeFiles/menu.dir/myMenu.c.o: C_COMPILER__menu_Debug /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/myMenu.c || cmake_object_order_depends_target_menu
+  DEP_FILE = CMakeFiles/menu.dir/myMenu.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/menu.dir
+  OBJECT_FILE_DIR = CMakeFiles/menu.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target menu
+
+
+#############################################
+# Link the executable menu
+
+build menu: C_EXECUTABLE_LINKER__menu_Debug CMakeFiles/menu.dir/myMenu.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/menu.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = menu
+  TARGET_PDB = menu.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -691,7 +753,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/estructurasRepetitivas/cmake-build-debug
 
-build all: phony eje1 ejem1 ejem2 ejem3 eje2 eje3 eje4 eje5 eje6 eje7 eje8 eje9 eje10 eje11 eje12 eje13 eje14 eje1C eje2C eje3C
+build all: phony eje1 ejem1 ejem2 ejem3 eje2 eje3 eje4 eje5 eje6 eje7 eje8 eje9 eje10 eje11 eje12 eje13 eje14 eje1C eje2C eje3C eje4C menu
 
 # =============================================================================
 # Built-in targets
